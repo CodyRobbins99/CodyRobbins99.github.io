@@ -71,7 +71,7 @@ header nav ul li a {
 /* Footer Styling */
 footer {
     padding: 10px 35px;
-    background-color: rgba(80, 80, 80, .9);
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,7 +170,7 @@ footer h2 {
 .work-samples {
     margin-top: 35px;
     padding-top: 25px;
-    background-color:rgb(80, 80, 80);
+    background-color:black;
 }
 
 /* Contact Info Styling */
