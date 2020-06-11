@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #C0C0C0;
+    background-color: #a7bace;
 }
 .flex-row {
     display: flex;
@@ -134,19 +134,7 @@ footer h2 {
     font-family: 'miso-bold';
     color: #ffffff;
     border-bottom: 3px solid;
-    border-color:rgb(80, 80, 80);
-    padding-bottom: 20px;
-    text-align: center;
-    letter-spacing: .2em;
-    margin: 0 auto 35px auto;
-    width: 50%;
-  }
-  .secondary-section-title {
-    font-size: 35px;
-    font-family: 'miso-bold';
-    color:rgb(180, 180, 180) ;
-    border-bottom: 3px solid;
-    border-color:#ffffff;
+    border-color:#708090;
     padding-bottom: 20px;
     text-align: center;
     letter-spacing: .2em;
@@ -167,11 +155,11 @@ footer h2 {
     display: flex;
     padding: 20px;
     margin: 5px;
-    background-color: rgba(80, 80, 80, .3);
+    background-color: #708090;
 }
 .about-me div {
     padding: 20px;
-    background-color: rgba(80, 80, 80, .3);
+    background-color: #708090;
     margin: 5px;
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.63em;
