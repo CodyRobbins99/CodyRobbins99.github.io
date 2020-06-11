@@ -26,6 +26,10 @@ body {
 header {
     padding: 10px 35px;
     background-color: rgba(80, 80, 80, .9);
+    background-image: url("../images/space.jpeg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -90,7 +94,8 @@ footer h2 {
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
-    background-position: center;
+    background-position: 80%;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
