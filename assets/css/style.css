@@ -82,6 +82,7 @@ footer {
 footer h2 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    text-align: center;
     font-size: 10px;
     letter-spacing: .2em;
     color: #ffffff;
