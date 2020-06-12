@@ -287,6 +287,10 @@ footer h2 {
     .grid-container {
         grid-auto-rows: minmax(200px, 1fr);
     }
+    .contact-options a, .contact-options p {
+        font-size: 1.6vw;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -312,6 +316,9 @@ footer h2 {
     .about-me div {
         line-height: 1.25em;
         padding: 30px 20px 30px 20px;
+    }
+    .contact-options a, .contact-options p {
+        font-size: 2vw;
     }
 } 
 
