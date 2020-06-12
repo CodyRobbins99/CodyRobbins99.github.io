@@ -112,16 +112,16 @@ footer h2 {
     border-width: 2px;
     border-color: #ffffff;
     border-radius: 15px;
-    width: 40%;
+    width: 43%;
     box-shadow: 0 0 10px rgba(255, 255, 255, .5);
 }
 .page-title h2 {
     text-align: center;
     line-height: 1.5;
     font-family: 'miso-bold';
-    font-size: 50px;
+    font-size: 3em;
     margin: 5px;
-    letter-spacing: .2em;
+    letter-spacing: .15em;
 }
 .page-title h3 {
     text-align: center;
@@ -133,7 +133,7 @@ footer h2 {
 
 /* Section Head Styling */
 .section-title {
-    font-size: 35px;
+    font-size: 2em;
     font-family: 'miso-bold';
     color: #ffffff;
     border-bottom: 3px solid;
@@ -162,9 +162,7 @@ footer h2 {
     border-radius: 50px;
 }
 .about-me div {
-    padding: 20px;
-    padding-top: 57.5px;
-    padding-bottom: 57.5px;
+    padding: 57.5px 20px 57.5px 20px;
     background-color: #708090;
     border-radius: 50px;
     margin: 5px;
@@ -239,7 +237,6 @@ footer h2 {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -257,3 +254,62 @@ footer h2 {
     display: block;
     margin-bottom: 30px;
 }
+
+/* Media Queries For Smaller Desktop Screens and Phones */
+@media screen and (max-width:980px) {
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+    header h1 {
+        width: 100%;
+        padding: 5px;
+        font-size: 10vw;
+    }
+    header h1 .slash {
+        font-size: 11vw;
+    }
+    header nav {
+        justify-content: center;
+        font-size: 5vw;
+    }
+    header nav ul li a {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-item, .grid-item:first-child {
+        grid-column: 1 / -1;
+    }
+    .grid-container {
+        grid-auto-rows: minmax(200px, 1fr);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .hero {
+        height: 500px;
+    }
+    .page-title {
+        width: 60%;
+    }
+    .section-title {
+        width: 80%;
+    }
+    .about-me {
+        margin: 0 25px 25px 25px;
+    }
+    .contact-options {
+        display: inline;
+        text-align: center;
+        flex-wrap: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-me div {
+        line-height: 1.25em;
+        padding: 30px 20px 30px 20px;
+    }
+} 
