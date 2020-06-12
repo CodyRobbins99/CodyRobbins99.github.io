@@ -9,6 +9,10 @@ page.
 This portfolio website is optimized for the average desktop, smaller desktop screens with a max width
 of 980px, tablet screens with a max width of 768px, and phone screens with a max width of 575px.
 
-### Screenshots
+### Screenshots of Each Optimization
 
-Desktop optimization:
+#### Desktop optimization and demonstration of Run Buddy page Deployment:
+
+![Desktop optimization demo]
+(./assets/images/desktop-gif.gif)
+
