@@ -176,9 +176,10 @@ footer h2 {
 
 /* Work Samples Styling */
 .work-samples {
-    margin-top: 35px;
-    padding-top: 25px;
+    margin: 35px;
+    padding: 25px;
     background-color:black;
+    border-radius: 50px;
 }
 .grid-container {
     display: grid;
