@@ -159,14 +159,18 @@ footer h2 {
     padding: 20px;
     margin: 5px;
     background-color: #708090;
+    border-radius: 50px;
 }
 .about-me div {
     padding: 20px;
-    padding-top: 115px;
+    padding-top: 57.5px;
+    padding-bottom: 57.5px;
     background-color: #708090;
+    border-radius: 50px;
     margin: 5px;
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.63em;
+    text-align: center;
     color: #ffffff;
 }
 
