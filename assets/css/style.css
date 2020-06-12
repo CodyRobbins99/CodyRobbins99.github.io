@@ -9,6 +9,7 @@ body {
 .flex-row {
     display: flex;
 }
+
 /* @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face
 {
@@ -313,3 +314,6 @@ footer h2 {
         padding: 30px 20px 30px 20px;
     }
 } 
+
+/* Credit to the writers of the original Run Buddy and Portfolio Template activity code writers.
+Some of my code was copied over and then adapted to fit the aesthetic I was going for. */
