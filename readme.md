@@ -13,20 +13,16 @@ of 980px, tablet screens with a max width of 768px, and phone screens with a max
 
 #### Desktop Optimization and Demonstration of Run Buddy Page Deployment:
 
-![Desktop optimization demo]
-(https://github.com/CodyRobbins99/CodyRobbins99.github.io/blob/master/assets/images/desktop-demo.gif)
+![Desktop optimization demo](https://github.com/CodyRobbins99/CodyRobbins99.github.io/blob/master/assets/images/desktop-demo.gif)
 
 #### Smaller Screen Optimization and Demonstration of Run Buddy Page Deployment:
 
-![Smaller screen optimization demo]
-()
+![Smaller screen optimization demo](https://github.com/CodyRobbins99/CodyRobbins99.github.io/blob/master/assets/images/small-screen-demo.gif)
 
 #### Tablet Screen Optimization and Demonstration of Run Buddy Page Deployment:
 
-![Tablet screen optimization demo]
-()
+![Tablet screen optimization demo](https://github.com/CodyRobbins99/CodyRobbins99.github.io/blob/master/assets/images/tablet-demo.gif)
 
 #### Phone Screen Optimization and Demonstration of Run Buddy Page Deployment:
 
-![Phone screen optimization demo]
-()
+![Phone screen optimization demo](https://github.com/CodyRobbins99/CodyRobbins99.github.io/blob/master/assets/images/phone-demo.gif)
