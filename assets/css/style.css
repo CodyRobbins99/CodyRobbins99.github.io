@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary-color:#ffffff;
+    --secondary-color:black ;
+    --tertiary-color:#708090;
+    --quaternary-color:rgb(80, 80, 80);
+}
 body {
     background-color: #a7bace;
 }
@@ -10,7 +16,7 @@ body {
     display: flex;
 }
 
-/* @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Font by Fonts2u (https://fonts2u.com) */
 @font-face
 {
 	font-family: 'miso-bold';
@@ -38,7 +44,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 30px;
-    color: #ffffff;
+    color: var(--primary-color);
     font-family: 'miso-bold';
     margin: 0;
 }
@@ -58,15 +64,15 @@ header nav ul li a {
     margin: 0 30px;
     text-decoration: none;
     border-radius: 10px;
-    background:black;
-    color: #ffffff;
+    background:var(--secondary-color);
+    color: var(--primary-color);
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     font-size: 1.25vw;
   }
   header nav ul li a:hover {
-    background: #ffffff;
-    color: rgb(80, 80, 80);
+    background: var(--primary-color);
+    color: var(--quaternary-color);
     border-radius: 10px;
     text-shadow: none;
   }
@@ -74,7 +80,7 @@ header nav ul li a {
 /* Footer Styling */
 footer {
     padding: 10px 35px;
-    background-color: black;
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +92,7 @@ footer h2 {
     text-align: center;
     font-size: 10px;
     letter-spacing: .2em;
-    color: #ffffff;
+    color: var(--primary-color);
     margin: 3px;
     order: 1;
 }
@@ -108,10 +114,10 @@ footer h2 {
 .page-title {
     background-color: rgba(80, 80, 80, .6);
     padding: 5px;
-    color: #ffffff;
+    color: var(--primary-color);
     border-style: solid;
     border-width: 2px;
-    border-color: #ffffff;
+    border-color: var(--primary-color);
     border-radius: 15px;
     width: 43%;
     box-shadow: 0 0 10px rgba(255, 255, 255, .5);
@@ -136,9 +142,9 @@ footer h2 {
 .section-title {
     font-size: 2em;
     font-family: 'miso-bold';
-    color: #ffffff;
+    color: var(--primary-color);
     border-bottom: 3px solid;
-    border-color:#708090;
+    border-color:var(--tertiary-color);
     padding-bottom: 20px;
     text-align: center;
     letter-spacing: .2em;
@@ -159,25 +165,25 @@ footer h2 {
     display: flex;
     padding: 20px;
     margin: 5px;
-    background-color: #708090;
+    background-color: var(--tertiary-color);
     border-radius: 50px;
 }
 .about-me div {
     padding: 57.5px 20px 57.5px 20px;
-    background-color: #708090;
+    background-color: var(--tertiary-color);
     border-radius: 50px;
     margin: 5px;
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.63em;
     text-align: center;
-    color: #ffffff;
+    color: var(--primary-color);
 }
 
 /* Work Samples Styling */
 .work-samples {
     margin: 35px;
     padding: 25px;
-    background-color:black;
+    background-color:var(--secondary-color);
     border-radius: 50px;
 }
 .grid-container {
@@ -189,12 +195,12 @@ footer h2 {
     grid-auto-rows: minmax(150px, 1fr);
 }
 .grid-item {
-    border: 5px solid #ffffff;
+    border: 5px solid var(--primary-color);
     border-radius: 50px;
     grid-column: span 4;
-    background-color: #708090;
+    background-color: var(--tertiary-color);
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: var(--secondary-color);
     min-height: 150px;
     display: flex;
     align-items: flex-end;
@@ -214,7 +220,7 @@ footer h2 {
     background-color: rgba(0, 0, 0, 0.3);
 }
 .grid-item div {
-    background-color: #ffffff;
+    background-color: var(--primary-color);
     padding: 8px 10px;
     border-radius: 04px;
 }
@@ -249,7 +255,7 @@ footer h2 {
 }
 .contact-options a, .contact-options p {
     text-decoration: none;
-    color: black;
+    color: var(--secondary-color);
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     display: block;
