@@ -149,7 +149,13 @@ footer h2 {
     text-align: center;
     letter-spacing: .2em;
     margin: 0 auto 35px auto;
-    width: 50%;
+    width: 80%;
+  }
+  .section-title::before {
+      content: "< ";
+  }
+  .section-title::after {
+      content: " >";
   }
 
 /* About Styling */
@@ -172,7 +178,8 @@ footer h2 {
     padding: 57.5px 20px 57.5px 20px;
     background-color: var(--tertiary-color);
     border-radius: 50px;
-    margin: 5px;
+    max-width: 50%;
+    margin: 10px;
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.63em;
     text-align: center;
@@ -270,23 +277,34 @@ footer h2 {
         text-align: center;
     }
     header h1 {
-        width: 100%;
-        padding: 5px;
-        font-size: 10vw;
+        display: none;
     }
     header h1 .slash {
         font-size: 11vw;
     }
     header nav {
         justify-content: center;
-        font-size: 5vw;
+        align-items: center;
+        margin-top: 15px;
     }
     header nav ul li a {
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .hero {
+        height: 700px;
+    }
+    .header nav ul li a {
+        padding: 30px 30px;
+        font-size: 3vw;
+    }
+    .about-me div {
+        max-width: none;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .grid-item, .grid-item:first-child {
         grid-column: 1 / -1;
     }
