@@ -240,6 +240,9 @@ footer h2 {
 .coming-soon {
     background-image: url("../images/coming-soon.jpg");
 }
+.project-1 {
+    background-image: url("../images/project-1.jpg");
+}
 
 /* Contact Info Styling */
 .contact-info {
